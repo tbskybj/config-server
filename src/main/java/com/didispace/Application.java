@@ -9,7 +9,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 public class Application {
 
 	public static void main(String[] args) {
-		System.out.println("这是新分支");
+		System.out.println("这是新分支提交");
 		new SpringApplicationBuilder(Application.class).web(true).run(args);
 	}
 
